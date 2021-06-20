@@ -17,6 +17,7 @@ public class Test1 extends Base{
 		     driver=intializeDriver(); 
 			driver.get("https://google.com");  
 			driver.getTitle();
+			System.out.println("i have added ");
 			//extent.flush();   // to genrate report otherwise it will be in listening mode.
 	  }
 

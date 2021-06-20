@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-20T17:31:24Z" name="Suite" finished-at="2021-06-20T17:31:42Z" duration-ms="18556">
+  <suite started-at="2021-06-20T19:54:48Z" name="Suite" finished-at="2021-06-20T19:55:00Z" duration-ms="11470">
     <groups>
     </groups>
-    <test started-at="2021-06-20T17:31:24Z" name="Test" finished-at="2021-06-20T17:31:42Z" duration-ms="18556">
+    <test started-at="2021-06-20T19:54:48Z" name="Test" finished-at="2021-06-20T19:55:00Z" duration-ms="11470">
       <class name="extent.Test1">
-        <test-method signature="getgoogle()[pri:0, instance:extent.Test1@7486b455]" started-at="2021-06-20T17:31:24Z" name="getgoogle" finished-at="2021-06-20T17:31:30Z" duration-ms="6401" status="PASS">
+        <test-method signature="getgoogle()[pri:0, instance:extent.Test1@7486b455]" started-at="2021-06-20T19:54:48Z" name="getgoogle" finished-at="2021-06-20T19:54:52Z" duration-ms="3500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getgoogle -->
       </class> <!-- extent.Test1 -->
       <class name="extent.Test3">
-        <test-method signature="getfacebook()[pri:0, instance:extent.Test3@5d908d47]" started-at="2021-06-20T17:31:36Z" name="getfacebook" finished-at="2021-06-20T17:31:42Z" duration-ms="5606" status="FAIL">
+        <test-method signature="getfacebook()[pri:0, instance:extent.Test3@5d908d47]" started-at="2021-06-20T19:54:56Z" name="getfacebook" finished-at="2021-06-20T19:54:59Z" duration-ms="3524" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Facebook - लॉग इन या साइन अप करें] but found [Google]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getfacebook -->
       </class> <!-- extent.Test3 -->
       <class name="extent.Test2">
-        <test-method signature="getgmail()[pri:0, instance:extent.Test2@660acfb]" started-at="2021-06-20T17:31:30Z" name="getgmail" finished-at="2021-06-20T17:31:36Z" duration-ms="6256" status="PASS">
+        <test-method signature="getgmail()[pri:0, instance:extent.Test2@660acfb]" started-at="2021-06-20T19:54:52Z" name="getgmail" finished-at="2021-06-20T19:54:56Z" duration-ms="4203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getgmail -->
